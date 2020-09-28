@@ -1,0 +1,26 @@
+.active-data {
+  color: white;
+  flex: 1;
+  padding: 40px;
+
+  &--active-source {
+    background-color: burlywood;
+  }
+
+  &--weekly-active {
+    background-color: lightblue;
+    margin: 0 25px;
+  }
+
+  &--nps {
+    background-color: turquoise;
+  }
+
+  &__current-period {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 20px 0 19px;
+  }
+}
+
+

@@ -1,0 +1,26 @@
+{
+  "filter_by": {
+    "title": "Filter by",
+    "type": "filter_by",
+    "options": [
+      "This month",
+      "Last month",
+      "This quarter",
+      "Last quarter",
+      "This year",
+      "Last year"
+    ]
+  },
+  "sort_by": {
+    "title": "Sort by",
+    "type": "sort_by",
+    "options": [
+      "id",
+      "Segment",
+      "Best NPS avg",
+      "Worst NPS avg",
+      "Renewals",
+      "NPS avg"
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+.selector {
+  display: flex;
+  justify-content: flex-end;
+
+  &__title {
+    line-height: 28px;
+    margin-right: 25px;
+  }
+
+  select {
+    padding: 6px 8px 5px;
+  }
+}
