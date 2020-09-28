@@ -14,7 +14,7 @@ Keep in mind that the data will be rendered twice in the development mode, due t
 
 * The page is not a 100% replica of the given design
 * The ```filter by``` and ```sort by``` now use `select`, however, a dropdown could have also been used instead to preserve better the design requirements
-* Tn this particular scenario, the payload sends ```0``` if the ```filter_by``` value is related to previous periods. In order for the ```time_unit_count``` to have a value above ```1``` (as I think it was actually intended), I believe the dashboard should have a way included for the user to mention what that value would be.
+* In this particular scenario, the payload sends ```0``` if the ```filter_by``` value is related to previous periods. In order for the ```time_unit_count``` to have a value above ```1``` (as I think it was actually intended), I believe the dashboard should have a way included for the user to mention what that value would be.
 * The project uses a function that mimics the API call behaviour
 * The project includes a bug which I didn't have time to fix:
   * When the page rerenders, the API mock function is called twice, both on page load, and also once again when users change the ```sort by``` value
