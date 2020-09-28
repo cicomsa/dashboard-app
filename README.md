@@ -8,7 +8,7 @@
 ## To test the application
 
 1. The page should have the required data visible: the 3 main KPIs on the top (active source, weekly active and NPS).
-2. When users change the filters or the sort by selector value, in the developer tools' console, the new state which is used for the payload data should be visible. 
+2. When users change the ```filter by``` or the ```sort by``` selectors value, in the developer tools' console, the new state which is used for the payload data should be visible. 
 Keep in mind that the data will be rendered twice in the development mode, due to the ```React.StrictMode``` wrapper that comes automatically with the ```npx create-react-app``` code structure. This issue is however not an issue on the production mode.
 
 ## Side notes: 
