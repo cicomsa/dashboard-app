@@ -2,7 +2,8 @@
 
 ## Steps to run the application:
 
-Install dependencies by running ```yarn``` in your terminal. After that, either run ``` yarn start``` and visit ```http://localhost:3000/``` (development mode), either run ```yarn build && npx serve -p 3001 build``` and visit ```http://localhost:5000/```(production mode).
+1. Install dependencies by running ```yarn``` in your terminal. After that, either run ``` yarn start``` and visit ```http://localhost:3000/``` (development mode), either run ```yarn build && npx serve -p 3001 build``` and visit ```http://localhost:5000/```(production mode).
+2. To run the tests, in your terminal run ```yarn test```.
 
 ## To test the application
 
